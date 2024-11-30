@@ -5,8 +5,6 @@ const mainImage = document.querySelector('.mainImage');
 const smallImage = document.querySelectorAll('.small-img');
 const prod = document.querySelectorAll('.prod')
 
-console.log(mainImage);
-
 bar.addEventListener('click', () => {
     nav.classList.add('active')
 })
