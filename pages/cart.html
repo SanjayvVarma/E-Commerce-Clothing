@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="pages.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <title>Document</title>
 </head>
@@ -22,7 +23,7 @@
                 <li><a href="./blog.html">Blog</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./contact.html">Contact</a></li>
-                <li class="cart-bag active"><a href="./cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li class="cart-bag"><a class="active" href="./cart.html"><i class="far fa-shopping-bag"></i></a></li>
                 <a href="#" class="close"><i class="far fa-times"></i></a>
             </ul>
         </div>
@@ -32,7 +33,63 @@
         </div>
     </header>
 
-    <h1>Comming Soon</h1>
+    <div class="page-header about-header">
+        <h2>#Cart</h2>
+        <p>Add your coupon code & SAVE upto 70% !</p>
+    </div>
+
+    <div class="cart section-p1">
+        <table>
+            <thead>
+                <tr>
+                    <td>REMOVE</td>
+                    <td>Images</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="../images/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirt</td>
+                    <td>₹ 116.99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹ 199</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="cart-add section-p1">
+        <div class="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="enter your coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div class="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>₹ 545</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>₹ 359</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </div>
 
     <footer class="section-p1">
         <div class="footer">
